@@ -1,17 +1,17 @@
 {
-    "name": "a2lix/i18n-doctrine-bundle",
+    "name": "arsigor/i18n-doctrine-bundle",
     "type": "symfony-bundle",
     "description": "Manage i18n for your doctrine objects",
-    "keywords": ["symfony2", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
-    "homepage": "https://github.com/a2lix/I18nDoctrineBundle",
+    "keywords": ["symfony5", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
+    "homepage": "https://github.com/arsigor/i18n-doctrine-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "A2lix",
-            "homepage": "http://a2lix.fr"
+            "name": "ars_translate",
+            "homepage": "https://github.com/arsigor/i18n-doctrine-bundle"
         },
         {
-            "name": "David ALLIX"
+            "name": "Ars"
         }
     ],
     "require": {
@@ -22,9 +22,9 @@
         "a2lix/translation-form-bundle": "*"
     },
     "autoload": {
-        "psr-0": {"A2lix\\I18nDoctrineBundle": ""}
+        "psr-0": {"arsigor\\I18nDoctrineBundle": ""}
     },
-    "target-dir": "A2lix/I18nDoctrineBundle",
+    "target-dir": "arsigor/I18nDoctrineBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.x-dev"
