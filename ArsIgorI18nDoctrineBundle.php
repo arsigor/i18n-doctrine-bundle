@@ -1,14 +1,14 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle;
+namespace ArsIgor\I18nDoctrineBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle,
     Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * @author David ALLIX
+ * @author Igor Arsenych
  */
-class A2lixI18nDoctrineBundle extends Bundle
+class ArsIgorI18NDoctrineBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

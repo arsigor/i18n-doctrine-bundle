@@ -1,6 +1,6 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\EventListener;
+namespace ArsIgor\I18nDoctrineBundle\EventListener;
 
 use Doctrine\Common\Annotations\Reader,
     Doctrine\Common\Persistence\ObjectManager;
@@ -8,7 +8,7 @@ use Doctrine\Common\Annotations\Reader,
 /**
  * Controller Listener
  *
- * @author David ALLIX
+ * @author Igor Arsenych
  */
 abstract class ControllerListener
 {

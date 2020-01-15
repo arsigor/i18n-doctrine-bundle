@@ -1,8 +1,8 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Doctrine\ORM\EventListener;
+namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\EventListener;
 
-use A2lix\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
+use ArsIgor\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
     Doctrine\ORM\Event\LoadClassMetadataEventArgs,
     Doctrine\ORM\Mapping\ClassMetadataInfo,
     Doctrine\ORM\Mapping\ClassMetadata,
@@ -13,7 +13,7 @@ use A2lix\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListe
  *
  * KnpDoctrineBehaviors (https://github.com/KnpLabs/DoctrineBehaviors/) inspiration
  *
- * @author David ALLIX
+ * @author Igor Arsenych
  */
 class DoctrineListener extends BaseDoctrineListener
 {

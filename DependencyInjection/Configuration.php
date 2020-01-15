@@ -1,12 +1,12 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\DependencyInjection;
+namespace ArsIgor\I18nDoctrineBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder,
     Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
- * @author David ALLIX
+ * @author Igor Arsenych
  */
 class Configuration implements ConfigurationInterface
 {
@@ -24,10 +24,10 @@ class Configuration implements ConfigurationInterface
                     ->defaultValue('doctrine')
                 ->end()
                 ->scalarNode('translatableTrait')
-                    ->defaultValue('A2lix\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable')
+                    ->defaultValue('ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable')
                 ->end()
                 ->scalarNode('translationTrait')
-                    ->defaultValue('A2lix\I18nDoctrineBundle\Doctrine\ORM\Util\Translation')
+                    ->defaultValue('ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translation')
                 ->end()
                 ->enumNode('translatableFetchMode')
                     ->values(array('EAGER', 'EXTRA_LAZY', 'LAZY'))

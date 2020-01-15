@@ -1,8 +1,8 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Doctrine\ODM\EventListener;
+namespace ArsIgor\I18nDoctrineBundle\Doctrine\ODM\EventListener;
 
-use A2lix\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
+use ArsIgor\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
     Doctrine\ODM\Event\LoadClassMetadataEventArgs,
     Doctrine\ODM\Events;
 

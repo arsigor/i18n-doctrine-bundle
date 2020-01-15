@@ -1,13 +1,13 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\EventListener;
+namespace ArsIgor\I18nDoctrineBundle\EventListener;
 
 use Doctrine\Common\EventSubscriber;
 
 /**
  * Doctrine Listener
  *
- * @author David ALLIX
+ * @author Igor Arsenych
  */
 abstract class DoctrineListener implements EventSubscriber
 {

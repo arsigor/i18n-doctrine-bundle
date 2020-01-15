@@ -1,10 +1,10 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Doctrine\Interfaces;
+namespace ArsIgor\I18nDoctrineBundle\Doctrine\Interfaces;
 
 /**
  *
- * @author David ALLIX
+ * @author Igor Arsenych
  */
 interface ManyLocalesInterface
 {

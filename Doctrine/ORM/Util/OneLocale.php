@@ -1,6 +1,6 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Doctrine\ORM\Util;
+namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util;
 
 /**
  * One locale trait.

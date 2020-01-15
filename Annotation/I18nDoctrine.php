@@ -1,11 +1,11 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Annotation;
+namespace ArsIgor\I18nDoctrineBundle\Annotation;
 
 use Doctrine\Common\Annotations\Annotation;
 
 /**
- * @author David ALLIX
+ * @author Igor Arsenych
  *
  * @Annotation
  * @Target("METHOD")

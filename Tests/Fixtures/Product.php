@@ -1,6 +1,6 @@
 <?php
 
-namespace A2lix\I18nDoctrineBundle\Tests\Fixtures;
+namespace ArsIgor\I18nDoctrineBundle\Tests\Fixtures;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -11,7 +11,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Product
 {
-    use \A2lix\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable;
+    use \ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable;
 
     /**
      * @ORM\Column(type="integer")
