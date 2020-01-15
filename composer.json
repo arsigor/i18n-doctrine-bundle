@@ -3,12 +3,12 @@
     "type": "symfony-bundle",
     "description": "Manage i18n for your doctrine objects",
     "keywords": ["symfony5", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
-    "homepage": "https://github.com/ArsIgor/i18n-doctrine-bundle",
+    "homepage": "https://github.com/arsigor/i18n-doctrine-bundle",
     "license": "MIT",
     "authors": [
         {
             "name": "ars_translate",
-            "homepage": "https://github.com/ArsIgor/i18n-doctrine-bundle"
+            "homepage": "https://github.com/arsigor/i18n-doctrine-bundle"
         },
         {
             "name": "Ars"
@@ -19,12 +19,12 @@
         "symfony/validator": "^4.0|^5.0",
         "symfony/config": "^4.0|^5.0",
         "symfony/dependency-injection": "^4.0|^5.0",
-        "ArsIgor/translation-form-bundle": "*"
+        "a2lix/translation-form-bundle": "*"
     },
     "autoload": {
-        "psr-0": {"ArsIgor\\I18nDoctrineBundle": ""}
+        "psr-0": {"arsigor\\I18nDoctrineBundle": ""}
     },
-    "target-dir": "ArsIgor/I18nDoctrineBundle",
+    "target-dir": "arsigor/I18nDoctrineBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.x-dev"

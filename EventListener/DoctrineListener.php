@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\EventListener;
+namespace arsigor\I18nDoctrineBundle\EventListener;
 
 use Doctrine\Common\EventSubscriber;
 

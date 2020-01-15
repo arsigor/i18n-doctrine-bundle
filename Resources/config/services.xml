@@ -5,28 +5,28 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="a2lix_i18n_doctrine.listener.doctrine.class" />
-        <parameter key="a2lix_i18n_doctrine.listener.controller.class" />
+        <parameter key="arsigor_i18n_doctrine.listener.doctrine.class" />
+        <parameter key="arsigor_i18n_doctrine.listener.controller.class" />
 
-        <parameter key="a2lix_i18n_doctrine.translatableTrait" />
-        <parameter key="a2lix_i18n_doctrine.translationTrait" />
-        <parameter key="a2lix_i18n_doctrine.translatableFetchMode" />
-        <parameter key="a2lix_i18n_doctrine.translationFetchMode" />
-        <parameter key="a2lix_i18n_doctrine.isRecursive" />
+        <parameter key="arsigor_i18n_doctrine.translatableTrait" />
+        <parameter key="arsigor_i18n_doctrine.translationTrait" />
+        <parameter key="arsigor_i18n_doctrine.translatableFetchMode" />
+        <parameter key="arsigor_i18n_doctrine.translationFetchMode" />
+        <parameter key="arsigor_i18n_doctrine.isRecursive" />
     </parameters>
 
     <services>
-        <service id="a2lix_i18n_doctrine.listener.doctrine" class="%a2lix_i18n_doctrine.listener.doctrine.class%">
-            <argument>%a2lix_i18n_doctrine.translatableTrait%</argument>
-            <argument>%a2lix_i18n_doctrine.translationTrait%</argument>
-            <argument>%a2lix_i18n_doctrine.translatableFetchMode%</argument>
-            <argument>%a2lix_i18n_doctrine.translationFetchMode%</argument>
-            <argument>%a2lix_i18n_doctrine.isRecursive%</argument>
+        <service id="arsigor_i18n_doctrine.listener.doctrine" class="%arsigor_i18n_doctrine.listener.doctrine.class%">
+            <argument>%arsigor_i18n_doctrine.translatableTrait%</argument>
+            <argument>%arsigor_i18n_doctrine.translationTrait%</argument>
+            <argument>%arsigor_i18n_doctrine.translatableFetchMode%</argument>
+            <argument>%arsigor_i18n_doctrine.translationFetchMode%</argument>
+            <argument>%arsigor_i18n_doctrine.isRecursive%</argument>
             <tag name="doctrine.event_subscriber" />
         </service>
-        <service id="a2lix_i18n_doctrine.listener.controller" class="%a2lix_i18n_doctrine.listener.controller.class%">
+        <service id="arsigor_i18n_doctrine.listener.controller" class="%arsigor_i18n_doctrine.listener.controller.class%">
             <argument type="service" id="annotation_reader" />
-            <argument type="service" id="a2lix_i18n_doctrine.object_manager" />
+            <argument type="service" id="arsigor_i18n_doctrine.object_manager" />
             <tag name="kernel.event_listener" event="kernel.controller" method="onKernelController" />
         </service>
     </services>

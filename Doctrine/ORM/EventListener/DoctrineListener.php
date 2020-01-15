@@ -1,8 +1,8 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\EventListener;
+namespace arsigor\I18nDoctrineBundle\Doctrine\ORM\EventListener;
 
-use ArsIgor\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
+use arsigor\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineListener,
     Doctrine\ORM\Event\LoadClassMetadataEventArgs,
     Doctrine\ORM\Mapping\ClassMetadataInfo,
     Doctrine\ORM\Mapping\ClassMetadata,

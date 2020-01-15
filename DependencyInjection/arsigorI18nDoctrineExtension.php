@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\DependencyInjection;
+namespace arsigor\I18nDoctrineBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder,
     Symfony\Component\Config\Definition\Processor,
@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder,
 /**
  * @author Igor Arsenych
  */
-class ArsIgorI18nDoctrineExtension extends Extension
+class arsigorI18NDoctrineExtension extends Extension
 {
     /**
      *
@@ -37,14 +37,14 @@ class ArsIgorI18nDoctrineExtension extends Extension
         // ORM
         if ('doctrine' === $config['manager_registry']) {
             $container->setAlias('ArsIgor_i18n_doctrine.object_manager', 'doctrine.orm.entity_manager');
-            $container->setParameter('ArsIgor_i18n_doctrine.listener.controller.class', 'ArsIgor\I18nDoctrineBundle\Doctrine\ORM\EventListener\ControllerListener');
-            $container->setParameter('ArsIgor_i18n_doctrine.listener.doctrine.class', 'ArsIgor\I18nDoctrineBundle\Doctrine\ORM\EventListener\DoctrineListener');
+            $container->setParameter('ArsIgor_i18n_doctrine.listener.controller.class', 'arsigor\I18nDoctrineBundle\Doctrine\ORM\EventListener\ControllerListener');
+            $container->setParameter('ArsIgor_i18n_doctrine.listener.doctrine.class', 'arsigor\I18nDoctrineBundle\Doctrine\ORM\EventListener\DoctrineListener');
 
         // ODM MongoDB
         } elseif ('doctrine_mongodb' === $config['manager_registry']) {
             $container->setAlias('ArsIgor_i18n_doctrine.object_manager', 'doctrine.odm.document_manager');
-            $container->setParameter('ArsIgor_i18n_doctrine.listener.controller.class', 'ArsIgor\I18nDoctrineBundle\Doctrine\ODM\EventListener\ControllerListener');
-            $container->setParameter('ArsIgor_i18n_doctrine.listener.doctrine.class', 'ArsIgor\I18nDoctrineBundle\Doctrine\ODM\EventListener\DoctrineListener');
+            $container->setParameter('ArsIgor_i18n_doctrine.listener.controller.class', 'arsigor\I18nDoctrineBundle\Doctrine\ODM\EventListener\ControllerListener');
+            $container->setParameter('ArsIgor_i18n_doctrine.listener.doctrine.class', 'arsigor\I18nDoctrineBundle\Doctrine\ODM\EventListener\DoctrineListener');
         }
     }
 

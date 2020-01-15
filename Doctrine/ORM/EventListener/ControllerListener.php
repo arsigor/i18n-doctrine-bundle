@@ -1,8 +1,8 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\EventListener;
+namespace arsigor\I18nDoctrineBundle\Doctrine\ORM\EventListener;
 
-use ArsIgor\I18nDoctrineBundle\EventListener\ControllerListener as BaseControllerListener,
+use arsigor\I18nDoctrineBundle\EventListener\ControllerListener as BaseControllerListener,
     Symfony\Component\HttpKernel\Event\FilterControllerEvent,
     Doctrine\Common\Util\ClassUtils;
 
@@ -34,7 +34,7 @@ class ControllerListener extends BaseControllerListener
         }
 
         $reflectionMethod = $reflectionClass->getMethod($method);
-        if ($this->annotationReader->getMethodAnnotation($reflectionMethod, 'ArsIgor\I18nDoctrineBundle\Annotation\I18nDoctrine')) {
+        if ($this->annotationReader->getMethodAnnotation($reflectionMethod, 'arsigor\I18nDoctrineBundle\Annotation\I18nDoctrine')) {
             $this->om->getFilters()->disable('oneLocale');
 
         } else {

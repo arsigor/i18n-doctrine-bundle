@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Filter;
+namespace arsigor\I18nDoctrineBundle\Doctrine\ORM\Filter;
 
 use Doctrine\ORM\Mapping\ClassMetaData,
     Doctrine\ORM\Query\Filter\SQLFilter;
@@ -20,7 +20,7 @@ class ManyLocalesFilter extends SQLFilter
     public function addFilterConstraint(ClassMetaData $targetEntity, $targetTableAlias)
     {
         // Check if the entity implements the right interface
-        if (!$targetEntity->reflClass->implementsInterface('\ArsIgor\I18nDoctrineBundle\Doctrine\Interfaces\ManyLocalesInterface')) {
+        if (!$targetEntity->reflClass->implementsInterface('\arsigor\I18nDoctrineBundle\Doctrine\Interfaces\ManyLocalesInterface')) {
             return "";
         }
 

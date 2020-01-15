@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\Interfaces;
+namespace arsigor\I18nDoctrineBundle\Doctrine\Interfaces;
 
 /**
  *

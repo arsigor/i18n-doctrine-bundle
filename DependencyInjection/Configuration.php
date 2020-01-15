@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\DependencyInjection;
+namespace arsigor\I18nDoctrineBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder,
     Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -24,10 +24,10 @@ class Configuration implements ConfigurationInterface
                     ->defaultValue('doctrine')
                 ->end()
                 ->scalarNode('translatableTrait')
-                    ->defaultValue('ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable')
+                    ->defaultValue('arsigor\I18nDoctrineBundle\Doctrine\ORM\Util\Translatable')
                 ->end()
                 ->scalarNode('translationTrait')
-                    ->defaultValue('ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translation')
+                    ->defaultValue('arsigor\I18nDoctrineBundle\Doctrine\ORM\Util\Translation')
                 ->end()
                 ->enumNode('translatableFetchMode')
                     ->values(array('EAGER', 'EXTRA_LAZY', 'LAZY'))

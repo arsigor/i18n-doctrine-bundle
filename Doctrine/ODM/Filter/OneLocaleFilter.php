@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\ODM\Filter;
+namespace arsigor\I18nDoctrineBundle\Doctrine\ODM\Filter;
 
 use Doctrine\ODM\MongoDB\Mapping\ClassMetadata,
     Doctrine\ODM\MongoDB\Query\Filter\BsonFilter;

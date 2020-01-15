@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Annotation;
+namespace arsigor\I18nDoctrineBundle\Annotation;
 
 use Doctrine\Common\Annotations\Annotation;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Tests\Fixtures;
+namespace arsigor\I18nDoctrineBundle\Tests\Fixtures;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -8,9 +8,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * @ORM\Entity
  */
-class ProductTranslation implements \ArsIgor\I18nDoctrineBundle\Doctrine\Interfaces\OneLocaleInterface
+class ProductTranslation implements \arsigor\I18nDoctrineBundle\Doctrine\Interfaces\OneLocaleInterface
 {
-    use \ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util\Translation;
+    use \arsigor\I18nDoctrineBundle\Doctrine\ORM\Util\Translation;
 
     /**
      * @ORM\Column(name="title", nullable=true)

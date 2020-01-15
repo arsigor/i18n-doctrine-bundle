@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle;
+namespace arsigor\I18nDoctrineBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle,
     Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle,
 /**
  * @author Igor Arsenych
  */
-class ArsIgorI18NDoctrineBundle extends Bundle
+class arsigorI18NDoctrineBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ArsIgor\I18nDoctrineBundle\Doctrine\ORM\Util;
+namespace arsigor\I18nDoctrineBundle\Doctrine\ORM\Util;
 
 /**
  * Translatable trait.
