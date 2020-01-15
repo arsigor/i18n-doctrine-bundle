@@ -1,5 +1,5 @@
 {
-    "name": "ArsIgor/i18n-doctrine-bundle",
+    "name": "arsigor/i18n-doctrine-bundle",
     "type": "symfony-bundle",
     "description": "Manage i18n for your doctrine objects",
     "keywords": ["symfony5", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
