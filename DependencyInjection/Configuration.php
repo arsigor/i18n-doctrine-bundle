@@ -6,7 +6,7 @@ use Symfony\Component\Config\Definition\Builder\TreeBuilder,
     Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 class Configuration implements ConfigurationInterface
 {
@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('a2lix_i18n_doctrine');
+        $rootNode = $treeBuilder->root('arsigor_i18n_doctrine');
 
         $rootNode
             ->children()

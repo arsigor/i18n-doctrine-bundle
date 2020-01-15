@@ -4,7 +4,7 @@ namespace arsigor\I18nDoctrineBundle\Doctrine\Interfaces;
 
 /**
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 interface OneLocaleInterface
 {

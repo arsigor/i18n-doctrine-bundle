@@ -9,7 +9,7 @@ use arsigor\I18nDoctrineBundle\EventListener\ControllerListener as BaseControlle
 /**
  * Controller Listener
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 class ControllerListener extends BaseControllerListener
 {

@@ -6,9 +6,9 @@ use Symfony\Component\HttpKernel\Bundle\Bundle,
     Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * @author Igor Arsenych
+ * @author David ALLIX
  */
-class arsigorI18NDoctrineBundle extends Bundle
+class arsigorI18nDoctrineBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

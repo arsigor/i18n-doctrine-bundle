@@ -1,3 +1,2 @@
-ArsIgorI18nDoctrineBundle
+arsigorI18nDoctrineBundle
 =======================
-Сode basics David ALLIX

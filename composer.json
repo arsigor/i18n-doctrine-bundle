@@ -2,16 +2,16 @@
     "name": "arsigor/i18n-doctrine-bundle",
     "type": "symfony-bundle",
     "description": "Manage i18n for your doctrine objects",
-    "keywords": ["symfony5", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
-    "homepage": "https://github.com/arsigor/i18n-doctrine-bundle",
+    "keywords": ["symfony2", "doctrine2", "i18n", "internationalization", "translation", "translatable"],
+    "homepage": "https://github.com/arsigor/I18nDoctrineBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "ars_translate",
-            "homepage": "https://github.com/arsigor/i18n-doctrine-bundle"
+            "name": "arsigor",
+            "homepage": "http://arsigor.fr"
         },
         {
-            "name": "Ars"
+            "name": "David ALLIX"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
         "symfony/validator": "^4.0|^5.0",
         "symfony/config": "^4.0|^5.0",
         "symfony/dependency-injection": "^4.0|^5.0",
-        "a2lix/translation-form-bundle": "*"
+        "arsigor/translation-form-bundle": "*"
     },
     "autoload": {
         "psr-0": {"arsigor\\I18nDoctrineBundle": ""}

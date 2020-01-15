@@ -5,7 +5,7 @@ namespace arsigor\I18nDoctrineBundle\Annotation;
 use Doctrine\Common\Annotations\Annotation;
 
 /**
- * @author Igor Arsenych
+ * @author David ALLIX
  *
  * @Annotation
  * @Target("METHOD")

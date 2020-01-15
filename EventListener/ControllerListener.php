@@ -8,7 +8,7 @@ use Doctrine\Common\Annotations\Reader,
 /**
  * Controller Listener
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 abstract class ControllerListener
 {

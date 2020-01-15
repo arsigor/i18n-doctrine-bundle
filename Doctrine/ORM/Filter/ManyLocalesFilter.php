@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping\ClassMetaData,
 
 /**
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 class ManyLocalesFilter extends SQLFilter
 {

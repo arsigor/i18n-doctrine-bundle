@@ -13,7 +13,7 @@ use arsigor\I18nDoctrineBundle\EventListener\DoctrineListener as BaseDoctrineLis
  *
  * KnpDoctrineBehaviors (https://github.com/KnpLabs/DoctrineBehaviors/) inspiration
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 class DoctrineListener extends BaseDoctrineListener
 {

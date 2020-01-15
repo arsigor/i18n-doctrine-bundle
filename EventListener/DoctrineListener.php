@@ -7,7 +7,7 @@ use Doctrine\Common\EventSubscriber;
 /**
  * Doctrine Listener
  *
- * @author Igor Arsenych
+ * @author David ALLIX
  */
 abstract class DoctrineListener implements EventSubscriber
 {
