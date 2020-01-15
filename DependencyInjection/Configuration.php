@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('arsigor_i18n_doctrine');
         $rootNode = $treeBuilder->root('arsigor_i18n_doctrine');
 
         $rootNode
